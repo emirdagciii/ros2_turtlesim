@@ -1,0 +1,26 @@
+[2.219s] Invoking command in '/home/emir/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[2.619s] running develop
+[2.717s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.718s]   warnings.warn(
+[3.019s] running egg_info
+[3.022s] writing my_py_pkg.egg-info/PKG-INFO
+[3.022s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.025s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.026s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.027s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.031s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.033s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.036s] running build_ext
+[3.042s] Creating /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[3.042s] Installing add_two_ints_client_no_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.043s] Installing add_two_ints_client_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.043s] Installing add_two_ints_server script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.044s] Installing number_counter script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.046s] Installing number_publisher script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.048s] Installing py_node script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.049s] Installing robot_news_station script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.050s] Installing smartphone script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.051s] 
+[3.052s] Installed /home/emir/ros2_ws/build/my_py_pkg
+[3.052s] running symlink_data
+[3.146s] Invoked command in '/home/emir/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

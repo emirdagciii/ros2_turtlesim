@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/emir/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_robot_bringup:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_py_pkg:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/opt/ros/humble CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_robot_bringup:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/my_robot_bringup -- -j5 -l5
+[0.055s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.259s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.826s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.853s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.877s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.299s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.053s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.146s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.289s] -- Looking for pthread.h
+[2.515s] -- Looking for pthread.h - found
+[2.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.623s] -- Found Threads: TRUE  
+[3.033s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[3.034s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[3.034s]   asked CMake to find a package configuration file provided by "launch", but
+[3.034s]   CMake did not find one.
+[3.034s] 
+[3.034s]   Could not find a package configuration file provided by "launch" with any
+[3.034s]   of the following names:
+[3.034s] 
+[3.034s]     launchConfig.cmake
+[3.034s]     launch-config.cmake
+[3.034s] 
+[3.034s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[3.034s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[3.034s]   provides a separate development package or SDK, be sure it has been
+[3.034s]   installed.
+[3.035s] 
+[3.035s] [0m
+[3.035s] -- Configuring incomplete, errors occurred!
+[3.035s] See also "/home/emir/ros2_ws/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".
+[3.041s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.042s] Invoked command in '/home/emir/ros2_ws/build/my_robot_bringup' returned '2': AMENT_PREFIX_PATH=/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_robot_bringup:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_py_pkg:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/opt/ros/humble CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_robot_bringup:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/my_robot_bringup -- -j5 -l5

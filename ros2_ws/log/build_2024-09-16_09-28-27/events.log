@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000149] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000200] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.000228] (custom_interfaces1) JobQueued: {'identifier': 'custom_interfaces1', 'dependencies': OrderedDict()}
+[0.000249] (custom_interfaces1) JobStarted: {'identifier': 'custom_interfaces1'}
+[0.008484] (custom_interfaces1) JobProgress: {'identifier': 'custom_interfaces1', 'progress': 'cmake'}
+[0.044912] (custom_interfaces1) JobProgress: {'identifier': 'custom_interfaces1', 'progress': 'build'}
+[0.044974] (custom_interfaces1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emir/ros2_ws/build/custom_interfaces1', '--', '-j5', '-l5'], 'cwd': '/home/emir/ros2_ws/build/custom_interfaces1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/custom_interfaces1/lib:/home/emir/install/my_robot_interfaces/lib:/home/emir/install/custom_interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '926'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1992'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install:/home/emir/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:13314'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1093,unix/emir-VirtualBox:/tmp/.ICE-unix/1093'), ('INVOCATION_ID', '602a6d9db72f4384a83291772a3c3597'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZZ41T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_py_pkg:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d37ffa7-c2ae-47ad-be26-fb23db80643e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/build/custom_interfaces1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/build/turtlesim_catch_them_all:/home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages:/home/emir/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/emir/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/build/my_py_pkg:/home/emir/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/install/custom_interfaces1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099582] (-) TimerEvent: {}
+[0.200442] (-) TimerEvent: {}
+[0.306489] (-) TimerEvent: {}
+[0.413071] (-) TimerEvent: {}
+[0.516888] (-) TimerEvent: {}
+[0.623562] (-) TimerEvent: {}
+[0.730487] (-) TimerEvent: {}
+[0.831145] (-) TimerEvent: {}
+[0.922227] (custom_interfaces1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.935529] (-) TimerEvent: {}
+[1.036956] (-) TimerEvent: {}
+[1.144372] (-) TimerEvent: {}
+[1.203637] (custom_interfaces1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.247780] (-) TimerEvent: {}
+[1.351895] (-) TimerEvent: {}
+[1.456214] (-) TimerEvent: {}
+[1.457783] (custom_interfaces1) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.556323] (-) TimerEvent: {}
+[1.658088] (-) TimerEvent: {}
+[1.771378] (-) TimerEvent: {}
+[1.782750] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.801374] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.814576] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.860512] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.875020] (-) TimerEvent: {}
+[1.949565] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.976009] (-) TimerEvent: {}
+[2.029971] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.083245] (-) TimerEvent: {}
+[2.184802] (-) TimerEvent: {}
+[2.292718] (-) TimerEvent: {}
+[2.395951] (-) TimerEvent: {}
+[2.497915] (-) TimerEvent: {}
+[2.585268] (custom_interfaces1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.599103] (-) TimerEvent: {}
+[2.700640] (-) TimerEvent: {}
+[2.801171] (-) TimerEvent: {}
+[2.901587] (-) TimerEvent: {}
+[3.002192] (-) TimerEvent: {}
+[3.064405] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.102711] (-) TimerEvent: {}
+[3.203170] (-) TimerEvent: {}
+[3.226855] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.259721] (custom_interfaces1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.304445] (-) TimerEvent: {}
+[3.352038] (custom_interfaces1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.352196] (custom_interfaces1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.352261] (custom_interfaces1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.404623] (-) TimerEvent: {}
+[3.447818] (custom_interfaces1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.510125] (-) TimerEvent: {}
+[3.614467] (-) TimerEvent: {}
+[3.691535] (custom_interfaces1) StdoutLine: {'line': b'-- Generating done\n'}
+[3.695896] (custom_interfaces1) StdoutLine: {'line': b'-- Build files have been written to: /home/emir/ros2_ws/build/custom_interfaces1\n'}
+[3.715784] (-) TimerEvent: {}
+[3.718841] (custom_interfaces1) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.729313] (custom_interfaces1) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.738089] (custom_interfaces1) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_custom_interfaces1\n'}
+[3.815967] (-) TimerEvent: {}
+[3.916296] (-) TimerEvent: {}
+[4.021682] (-) TimerEvent: {}
+[4.032743] (custom_interfaces1) StdoutLine: {'line': b'running egg_info\n'}
+[4.032888] (custom_interfaces1) StdoutLine: {'line': b'writing custom_interfaces1.egg-info/PKG-INFO\n'}
+[4.033032] (custom_interfaces1) StdoutLine: {'line': b'writing dependency_links to custom_interfaces1.egg-info/dependency_links.txt\n'}
+[4.033390] (custom_interfaces1) StdoutLine: {'line': b'writing top-level names to custom_interfaces1.egg-info/top_level.txt\n'}
+[4.051439] (custom_interfaces1) StdoutLine: {'line': b"reading manifest file 'custom_interfaces1.egg-info/SOURCES.txt'\n"}
+[4.072567] (custom_interfaces1) StdoutLine: {'line': b"writing manifest file 'custom_interfaces1.egg-info/SOURCES.txt'\n"}
+[4.098494] (custom_interfaces1) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_custom_interfaces1_egg\n'}
+[4.122063] (-) TimerEvent: {}
+[4.222619] (-) TimerEvent: {}
+[4.314090] (custom_interfaces1) StdoutLine: {'line': b'[  3%] Built target custom_interfaces1__cpp\n'}
+[4.322806] (-) TimerEvent: {}
+[4.324640] (custom_interfaces1) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.361043] (custom_interfaces1) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.373820] (custom_interfaces1) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.416239] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_generator_c\x1b[0m\n'}
+[4.423700] (-) TimerEvent: {}
+[4.506266] (custom_interfaces1) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces1/msg/detail/led_state_array__functions.c.o\x1b[0m\n'}
+[4.516609] (custom_interfaces1) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces1/msg/detail/target_coordinates__functions.c.o\x1b[0m\n'}
+[4.523938] (-) TimerEvent: {}
+[4.624434] (-) TimerEvent: {}
+[4.726229] (-) TimerEvent: {}
+[4.751011] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.826348] (-) TimerEvent: {}
+[4.845988] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.912791] (custom_interfaces1) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/msg/detail/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[4.917577] (custom_interfaces1) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces1/msg/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[4.926512] (-) TimerEvent: {}
+[5.007994] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.026737] (-) TimerEvent: {}
+[5.101051] (custom_interfaces1) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces1/msg/detail/dds_fastrtps/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[5.126903] (-) TimerEvent: {}
+[5.228722] (-) TimerEvent: {}
+[5.329872] (-) TimerEvent: {}
+[5.431274] (-) TimerEvent: {}
+[5.532893] (-) TimerEvent: {}
+[5.634661] (-) TimerEvent: {}
+[5.740098] (-) TimerEvent: {}
+[5.846158] (-) TimerEvent: {}
+[5.951433] (-) TimerEvent: {}
+[6.052160] (-) TimerEvent: {}
+[6.153268] (-) TimerEvent: {}
+[6.253794] (-) TimerEvent: {}
+[6.365250] (-) TimerEvent: {}
+[6.396259] (custom_interfaces1) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces1/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[6.397009] (custom_interfaces1) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces1/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[6.450157] (custom_interfaces1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces1/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[6.465377] (-) TimerEvent: {}
+[6.492998] (custom_interfaces1) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces1/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[6.520296] (custom_interfaces1) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces1__rosidl_generator_c.so\x1b[0m\n'}
+[6.565737] (-) TimerEvent: {}
+[6.666443] (-) TimerEvent: {}
+[6.770663] (-) TimerEvent: {}
+[6.873982] (-) TimerEvent: {}
+[6.978543] (-) TimerEvent: {}
+[7.080599] (-) TimerEvent: {}
+[7.183184] (-) TimerEvent: {}
+[7.288901] (-) TimerEvent: {}
+[7.348019] (custom_interfaces1) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces1__rosidl_generator_c\n'}
+[7.359591] (custom_interfaces1) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.390410] (-) TimerEvent: {}
+[7.492789] (-) TimerEvent: {}
+[7.595296] (-) TimerEvent: {}
+[7.695632] (-) TimerEvent: {}
+[7.795993] (-) TimerEvent: {}
+[7.896715] (-) TimerEvent: {}
+[7.980369] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.992873] (custom_interfaces1) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces1/msg/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[7.996939] (-) TimerEvent: {}
+[8.048646] (custom_interfaces1) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces1/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[8.081059] (custom_interfaces1) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/msg/detail/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[8.096476] (custom_interfaces1) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces1/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[8.097088] (-) TimerEvent: {}
+[8.160959] (custom_interfaces1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces1/msg/detail/target_coordinates__type_support_c.cpp.o\x1b[0m\n'}
+[8.197604] (-) TimerEvent: {}
+[8.254690] (custom_interfaces1) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces1/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[8.300285] (-) TimerEvent: {}
+[8.400946] (-) TimerEvent: {}
+[8.454255] (custom_interfaces1) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces1/srv/detail/dds_fastrtps/set_led__type_support.cpp.o\x1b[0m\n'}
+[8.486039] (custom_interfaces1) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[8.501517] (-) TimerEvent: {}
+[8.518572] (custom_interfaces1) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces1/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[8.565252] (custom_interfaces1) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces1/msg/detail/led_state_array__type_support_c.cpp.o\x1b[0m\n'}
+[8.602116] (-) TimerEvent: {}
+[8.638541] (custom_interfaces1) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces1/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[8.702283] (-) TimerEvent: {}
+[8.802608] (-) TimerEvent: {}
+[8.810258] (custom_interfaces1) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces1/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[8.902728] (-) TimerEvent: {}
+[8.903451] (custom_interfaces1) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[8.904171] (custom_interfaces1) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[8.958631] (custom_interfaces1) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.003228] (-) TimerEvent: {}
+[9.047394] (custom_interfaces1) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.071940] (custom_interfaces1) StdoutLine: {'line': b'[ 50%] Built target custom_interfaces1__rosidl_typesupport_cpp\n'}
+[9.081253] (custom_interfaces1) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces1/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[9.103417] (-) TimerEvent: {}
+[9.154309] (custom_interfaces1) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces1/srv/detail/set_led__type_support_c.cpp.o\x1b[0m\n'}
+[9.197110] (custom_interfaces1) StdoutLine: {'line': b'[ 53%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_cpp\n'}
+[9.204293] (-) TimerEvent: {}
+[9.220631] (custom_interfaces1) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.304766] (-) TimerEvent: {}
+[9.309635] (custom_interfaces1) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.352310] (custom_interfaces1) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.406041] (-) TimerEvent: {}
+[9.463700] (custom_interfaces1) StdoutLine: {'line': b'[ 58%] Built target custom_interfaces1__rosidl_typesupport_introspection_cpp\n'}
+[9.494677] (custom_interfaces1) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.506961] (-) TimerEvent: {}
+[9.605685] (custom_interfaces1) StdoutLine: {'line': b'[ 60%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_c\n'}
+[9.607123] (-) TimerEvent: {}
+[9.687321] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.689474] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_c\x1b[0m\n'}
+[9.700934] (custom_interfaces1) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces1/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[9.701144] (custom_interfaces1) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces1/msg/target_coordinates__type_support.cpp.o\x1b[0m\n'}
+[9.701390] (custom_interfaces1) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces1/msg/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[9.701529] (custom_interfaces1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces1/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[9.708813] (-) TimerEvent: {}
+[9.739732] (custom_interfaces1) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces1/msg/detail/target_coordinates__type_support.c.o\x1b[0m\n'}
+[9.751466] (custom_interfaces1) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces1/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[9.752053] (custom_interfaces1) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces1/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[9.755681] (custom_interfaces1) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces1/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[9.755982] (custom_interfaces1) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces1/msg/detail/led_state_array__type_support.c.o\x1b[0m\n'}
+[9.786080] (custom_interfaces1) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces1/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[9.808977] (-) TimerEvent: {}
+[9.817461] (custom_interfaces1) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.843367] (custom_interfaces1) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces1__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.861343] (custom_interfaces1) StdoutLine: {'line': b'[ 79%] Built target custom_interfaces1__rosidl_typesupport_c\n'}
+[9.898441] (custom_interfaces1) StdoutLine: {'line': b'[ 79%] Built target custom_interfaces1__rosidl_typesupport_introspection_c\n'}
+[9.909506] (-) TimerEvent: {}
+[9.919384] (custom_interfaces1) StdoutLine: {'line': b'[ 79%] Built target custom_interfaces1\n'}
+[9.950430] (custom_interfaces1) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.010230] (-) TimerEvent: {}
+[10.111132] (-) TimerEvent: {}
+[10.211618] (-) TimerEvent: {}
+[10.312559] (-) TimerEvent: {}
+[10.413605] (-) TimerEvent: {}
+[10.514315] (-) TimerEvent: {}
+[10.614709] (-) TimerEvent: {}
+[10.624924] (custom_interfaces1) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces1__py\n'}
+[10.714678] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_generator_py\x1b[0m\n'}
+[10.714823] (-) TimerEvent: {}
+[10.815884] (-) TimerEvent: {}
+[10.916289] (-) TimerEvent: {}
+[11.016733] (-) TimerEvent: {}
+[11.028820] (custom_interfaces1) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces1/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[11.029533] (custom_interfaces1) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces1/msg/_led_state_array_s.c.o\x1b[0m\n'}
+[11.030258] (custom_interfaces1) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces1/srv/_set_led_s.c.o\x1b[0m\n'}
+[11.035246] (custom_interfaces1) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces1/msg/_target_coordinates_s.c.o\x1b[0m\n'}
+[11.036012] (custom_interfaces1) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces1/msg/_turtle_s.c.o\x1b[0m\n'}
+[11.116850] (-) TimerEvent: {}
+[11.217287] (-) TimerEvent: {}
+[11.317672] (-) TimerEvent: {}
+[11.418160] (-) TimerEvent: {}
+[11.506826] (custom_interfaces1) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces1/libcustom_interfaces1__rosidl_generator_py.so\x1b[0m\n'}
+[11.518413] (-) TimerEvent: {}
+[11.619329] (custom_interfaces1) StdoutLine: {'line': b'[ 90%] Built target custom_interfaces1__rosidl_generator_py\n'}
+[11.619523] (-) TimerEvent: {}
+[11.652026] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.666685] (custom_interfaces1) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.680880] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.681052] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.697285] (custom_interfaces1) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.698718] (custom_interfaces1) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.722265] (-) TimerEvent: {}
+[11.798965] (custom_interfaces1) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.804451] (custom_interfaces1) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.806716] (custom_interfaces1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.823252] (-) TimerEvent: {}
+[11.844485] (custom_interfaces1) StdoutLine: {'line': b'[100%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.848542] (custom_interfaces1) StdoutLine: {'line': b'[100%] Built target custom_interfaces1__rosidl_typesupport_introspection_c__pyext\n'}
+[11.850526] (custom_interfaces1) StdoutLine: {'line': b'[100%] Built target custom_interfaces1__rosidl_typesupport_c__pyext\n'}
+[11.864792] (custom_interfaces1) CommandEnded: {'returncode': 0}
+[11.923520] (-) TimerEvent: {}
+[12.009331] (custom_interfaces1) JobProgress: {'identifier': 'custom_interfaces1', 'progress': 'install'}
+[12.018327] (custom_interfaces1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emir/ros2_ws/build/custom_interfaces1'], 'cwd': '/home/emir/ros2_ws/build/custom_interfaces1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/custom_interfaces1/lib:/home/emir/install/my_robot_interfaces/lib:/home/emir/install/custom_interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '926'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1992'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install:/home/emir/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:13314'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1093,unix/emir-VirtualBox:/tmp/.ICE-unix/1093'), ('INVOCATION_ID', '602a6d9db72f4384a83291772a3c3597'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZZ41T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_py_pkg:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d37ffa7-c2ae-47ad-be26-fb23db80643e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/build/custom_interfaces1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/build/turtlesim_catch_them_all:/home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages:/home/emir/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/emir/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/build/my_py_pkg:/home/emir/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/install/custom_interfaces1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[12.023703] (-) TimerEvent: {}
+[12.026131] (custom_interfaces1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.026795] (custom_interfaces1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.027086] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces1\n'}
+[12.027647] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__functions.h\n'}
+[12.027782] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__struct.h\n'}
+[12.027853] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__type_support.h\n'}
+[12.028756] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__functions.h\n'}
+[12.028859] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__struct.h\n'}
+[12.028918] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__type_support.h\n'}
+[12.028970] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__functions.h\n'}
+[12.036049] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__struct.h\n'}
+[12.043954] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__type_support.h\n'}
+[12.051911] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__functions.h\n'}
+[12.061511] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__struct.h\n'}
+[12.069300] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__type_support.h\n'}
+[12.077401] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/led_state_array.h\n'}
+[12.077582] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.077655] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/target_coordinates.h\n'}
+[12.077717] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/turtle.h\n'}
+[12.086489] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/turtle_array.h\n'}
+[12.095112] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__functions.h\n'}
+[12.095579] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__struct.h\n'}
+[12.095693] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__type_support.h\n'}
+[12.095755] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/set_led.h\n'}
+[12.095808] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/library_path.sh\n'}
+[12.095959] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/library_path.dsv\n'}
+[12.096429] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h\n'}
+[12.096519] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[12.096614] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[12.105092] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[12.113436] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.113940] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[12.114456] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__builder.hpp\n'}
+[12.114538] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__struct.hpp\n'}
+[12.114591] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__traits.hpp\n'}
+[12.114641] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__builder.hpp\n'}
+[12.114700] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__struct.hpp\n'}
+[12.114749] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__traits.hpp\n'}
+[12.116300] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__builder.hpp\n'}
+[12.122414] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__struct.hpp\n'}
+[12.124279] (-) TimerEvent: {}
+[12.129967] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__traits.hpp\n'}
+[12.138543] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__builder.hpp\n'}
+[12.146191] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__struct.hpp\n'}
+[12.154068] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__traits.hpp\n'}
+[12.164520] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/led_state_array.hpp\n'}
+[12.164666] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/target_coordinates.hpp\n'}
+[12.164739] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/turtle.hpp\n'}
+[12.172959] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/turtle_array.hpp\n'}
+[12.181421] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__builder.hpp\n'}
+[12.181568] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__struct.hpp\n'}
+[12.181627] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__traits.hpp\n'}
+[12.181716] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/set_led.hpp\n'}
+[12.182383] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.182480] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.182537] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.190357] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.198653] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.198802] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.199567] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h\n'}
+[12.199669] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[12.199728] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[12.206991] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[12.215906] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.216056] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[12.216293] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.216387] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.216594] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.224611] (-) TimerEvent: {}
+[12.224837] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.232995] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.233123] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/pythonpath.sh\n'}
+[12.233341] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/pythonpath.dsv\n'}
+[12.233609] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.233697] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.233902] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.233996] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.235393] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/__init__.py\n'}
+[12.235512] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_c.c\n'}
+[12.235571] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.235623] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.235681] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.235733] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.235783] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.235833] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/libcustom_interfaces1__rosidl_generator_py.so\n'}
+[12.235882] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/__init__.py\n'}
+[12.235999] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_led_state_array.py\n'}
+[12.236060] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_led_state_array_s.c\n'}
+[12.236110] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_target_coordinates.py\n'}
+[12.236161] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_target_coordinates_s.c\n'}
+[12.236215] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_turtle.py\n'}
+[12.243587] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_turtle_array.py\n'}
+[12.252202] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_turtle_array_s.c\n'}
+[12.261022] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_turtle_s.c\n'}
+[12.269699] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/srv/__init__.py\n'}
+[12.269903] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/srv/_set_led.py\n'}
+[12.269969] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/srv/_set_led_s.c\n'}
+[12.324708] (-) TimerEvent: {}
+[12.337545] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.338237] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.338836] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.339237] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/TargetCoordinates.idl\n'}
+[12.339330] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/LedStateArray.idl\n'}
+[12.339530] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/Turtle.idl\n'}
+[12.347979] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/TurtleArray.idl\n'}
+[12.356526] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/srv/SetLed.idl\n'}
+[12.357742] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/TargetCoordinates.msg\n'}
+[12.357896] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/LedStateArray.msg\n'}
+[12.357964] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/Turtle.msg\n'}
+[12.365540] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/TurtleArray.msg\n'}
+[12.373750] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/srv/SetLed.srv\n'}
+[12.373921] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/srv/SetLed_Request.msg\n'}
+[12.374011] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/srv/SetLed_Response.msg\n'}
+[12.375072] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/package_run_dependencies/custom_interfaces1\n'}
+[12.375278] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/parent_prefix_path/custom_interfaces1\n'}
+[12.375360] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/ament_prefix_path.sh\n'}
+[12.375492] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/ament_prefix_path.dsv\n'}
+[12.375559] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/path.sh\n'}
+[12.375623] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/path.dsv\n'}
+[12.375690] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.bash\n'}
+[12.375756] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.sh\n'}
+[12.375817] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.zsh\n'}
+[12.375878] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.dsv\n'}
+[12.376075] (custom_interfaces1) StdoutLine: {'line': b'-- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/package.dsv\n'}
+[12.383875] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/packages/custom_interfaces1\n'}
+[12.384039] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/rosidl_cmake-extras.cmake\n'}
+[12.384277] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.384472] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.384585] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.384777] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.385115] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.385303] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.385431] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1Config.cmake\n'}
+[12.385484] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1Config-version.cmake\n'}
+[12.385533] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/package.xml\n'}
+[12.401556] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_c.so\n'}
+[12.401930] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_c.so" to ""\n'}
+[12.403438] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_c.so\n'}
+[12.403746] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.425775] (-) TimerEvent: {}
+[12.431009] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.431500] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.433007] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_c.so\n'}
+[12.433493] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.434385] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_c.so\n'}
+[12.434707] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_c.so" to ""\n'}
+[12.435812] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so\n'}
+[12.436157] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.437273] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_cpp.so\n'}
+[12.437495] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_cpp.so" to ""\n'}
+[12.529463] (-) TimerEvent: {}
+[12.571203] (custom_interfaces1) StdoutLine: {'line': b"Listing '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1'...\n"}
+[12.571355] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/__init__.py'...\n"}
+[12.571419] (custom_interfaces1) StdoutLine: {'line': b"Listing '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg'...\n"}
+[12.571473] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/__init__.py'...\n"}
+[12.571524] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_led_state_array.py'...\n"}
+[12.571573] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_target_coordinates.py'...\n"}
+[12.571623] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_turtle.py'...\n"}
+[12.571672] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_turtle_array.py'...\n"}
+[12.571720] (custom_interfaces1) StdoutLine: {'line': b"Listing '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/srv'...\n"}
+[12.571768] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/srv/__init__.py'...\n"}
+[12.571817] (custom_interfaces1) StdoutLine: {'line': b"Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/srv/_set_led.py'...\n"}
+[12.577696] (custom_interfaces1) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_py.so\n'}
+[12.577994] (custom_interfaces1) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_py.so" to ""\n'}
+[12.599810] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_cExport.cmake\n'}
+[12.599958] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.600864] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.600958] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.601864] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_cppExport.cmake\n'}
+[12.602749] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.602845] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.603521] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.603602] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.604342] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cExport.cmake\n'}
+[12.604529] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.605084] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.605241] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.605726] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cppExport.cmake\n'}
+[12.605846] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.606581] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_pyExport.cmake\n'}
+[12.606707] (custom_interfaces1) StdoutLine: {'line': b'-- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.625684] (custom_interfaces1) CommandEnded: {'returncode': 0}
+[12.630112] (-) TimerEvent: {}
+[12.731381] (-) TimerEvent: {}
+[12.831644] (-) TimerEvent: {}
+[12.889694] (custom_interfaces1) JobEnded: {'identifier': 'custom_interfaces1', 'rc': 0}
+[12.890436] (-) EventReactorShutdown: {}

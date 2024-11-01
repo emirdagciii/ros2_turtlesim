@@ -1,0 +1,22 @@
+[1.708s] Invoking command in '/home/emir/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[2.008s] running develop
+[2.025s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.025s]   warnings.warn(
+[2.200s] running egg_info
+[2.200s] writing my_py_pkg.egg-info/PKG-INFO
+[2.201s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.201s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.202s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.202s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.204s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.205s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.207s] running build_ext
+[2.207s] Creating /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.208s] Installing py_node script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.208s] Installing robot_news_station script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.208s] 
+[2.209s] Installed /home/emir/ros2_ws/build/my_py_pkg
+[2.209s] running symlink_data
+[2.209s] symbolically linking /home/emir/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/emir/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.209s] symbolically linking /home/emir/ros2_ws/build/my_py_pkg/package.xml -> /home/emir/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.235s] Invoked command in '/home/emir/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

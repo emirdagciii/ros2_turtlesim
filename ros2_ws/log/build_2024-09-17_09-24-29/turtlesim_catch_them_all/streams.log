@@ -1,0 +1,25 @@
+[0.558s] Invoking command in '/home/emir/ros2_ws/src/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1 PYTHONPATH=/home/emir/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/emir/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/emir/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[0.781s] running egg_info
+[0.781s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.781s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.781s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.782s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[0.782s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[0.783s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.784s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.786s] copying turtlesim_catch_them_all/turtle_spawner.py -> /home/emir/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.786s] running install
+[0.786s] running install_lib
+[0.786s] copying /home/emir/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_spawner.py -> /home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.787s] byte-compiling /home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[0.787s] running install_data
+[0.787s] running install_egg_info
+[0.789s] removing '/home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info' (and everything under it)
+[0.790s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info
+[0.790s] running install_scripts
+[0.810s] Installing turtlesim_controller script to /home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.811s] Installing turtlesim_spawner script to /home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.811s] writing list of installed files to '/home/emir/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[0.831s] Invoked command in '/home/emir/ros2_ws/src/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1 PYTHONPATH=/home/emir/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/emir/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/emir/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data

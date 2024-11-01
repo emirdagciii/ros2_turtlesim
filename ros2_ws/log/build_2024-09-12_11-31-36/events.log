@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.001956] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.002011] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.002074] (custom_interfaces1) JobQueued: {'identifier': 'custom_interfaces1', 'dependencies': OrderedDict()}
+[0.002164] (custom_interfaces1) JobStarted: {'identifier': 'custom_interfaces1'}
+[0.016537] (custom_interfaces1) JobProgress: {'identifier': 'custom_interfaces1', 'progress': 'cmake'}
+[0.018377] (custom_interfaces1) JobProgress: {'identifier': 'custom_interfaces1', 'progress': 'build'}
+[0.021172] (custom_interfaces1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emir/ros2_ws/build/custom_interfaces1', '--', '-j5', '-l5'], 'cwd': '/home/emir/ros2_ws/build/custom_interfaces1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/custom_interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '915'), ('SYSTEMD_EXEC_PID', '1404'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6771'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:12557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1070,unix/emir-VirtualBox:/tmp/.ICE-unix/1070'), ('INVOCATION_ID', 'ddf1ba9208754704b5fdebd4061a79a1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L7UZT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45255875-5c21-46bd-9bc7-291c6ca611d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/build/custom_interfaces1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/build/my_py_pkg:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.100063] (-) TimerEvent: {}
+[0.157389] (custom_interfaces1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201080] (-) TimerEvent: {}
+[0.301549] (-) TimerEvent: {}
+[0.404245] (-) TimerEvent: {}
+[0.505398] (-) TimerEvent: {}
+[0.510430] (custom_interfaces1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.606613] (-) TimerEvent: {}
+[0.708040] (-) TimerEvent: {}
+[0.793097] (custom_interfaces1) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.808859] (-) TimerEvent: {}
+[0.910198] (-) TimerEvent: {}
+[1.014497] (-) TimerEvent: {}
+[1.115525] (-) TimerEvent: {}
+[1.217332] (-) TimerEvent: {}
+[1.335407] (-) TimerEvent: {}
+[1.372484] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.392018] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.410667] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.436226] (-) TimerEvent: {}
+[1.477765] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.536959] (-) TimerEvent: {}
+[1.603424] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.637587] (-) TimerEvent: {}
+[1.737981] (-) TimerEvent: {}
+[1.799942] (custom_interfaces1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.840578] (-) TimerEvent: {}
+[1.941099] (-) TimerEvent: {}
+[2.041640] (-) TimerEvent: {}
+[2.143611] (-) TimerEvent: {}
+[2.155873] (custom_interfaces1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.243903] (-) TimerEvent: {}
+[2.345528] (-) TimerEvent: {}
+[2.446308] (-) TimerEvent: {}
+[2.547024] (-) TimerEvent: {}
+[2.648362] (-) TimerEvent: {}
+[2.748929] (-) TimerEvent: {}
+[2.751114] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.849238] (-) TimerEvent: {}
+[2.950034] (-) TimerEvent: {}
+[2.955997] (custom_interfaces1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.000620] (custom_interfaces1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.054881] (-) TimerEvent: {}
+[3.072935] (custom_interfaces1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.073565] (custom_interfaces1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.073639] (custom_interfaces1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.155289] (-) TimerEvent: {}
+[3.162181] (custom_interfaces1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.256133] (-) TimerEvent: {}
+[3.269135] (custom_interfaces1) StdoutLine: {'line': b'-- Generating done\n'}
+[3.276686] (custom_interfaces1) StdoutLine: {'line': b'-- Build files have been written to: /home/emir/ros2_ws/build/custom_interfaces1\n'}
+[3.325673] (custom_interfaces1) StderrLine: {'line': b"failed to create symbolic link '/home/emir/ros2_ws/build/custom_interfaces1/ament_cmake_python/custom_interfaces1/custom_interfaces1' because existing path cannot be removed: Is a directory\n"}
+[3.327221] (custom_interfaces1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_custom_interfaces1.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_custom_interfaces1] Error 1\n'}
+[3.327698] (custom_interfaces1) StdoutLine: {'line': b'[  2%] Built target custom_interfaces1__cpp\n'}
+[3.327805] (custom_interfaces1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_custom_interfaces1.dir/all] Error 2\n'}
+[3.327876] (custom_interfaces1) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.343361] (custom_interfaces1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_generator_c\x1b[0m\n'}
+[3.356322] (-) TimerEvent: {}
+[3.370195] (custom_interfaces1) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces1__rosidl_generator_c\n'}
+[3.371287] (custom_interfaces1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.374312] (custom_interfaces1) CommandEnded: {'returncode': 2}
+[3.456830] (-) TimerEvent: {}
+[3.500050] (custom_interfaces1) JobEnded: {'identifier': 'custom_interfaces1', 'rc': 2}
+[3.511998] (-) EventReactorShutdown: {}

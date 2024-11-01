@@ -1,0 +1,31 @@
+[1.844s] Invoking command in '/home/emir/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/emir/ros2_ws/install/custom_interfaces1/lib:/home/emir/install/my_robot_interfaces/lib:/home/emir/install/custom_interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[2.210s] running develop
+[2.211s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.211s]   warnings.warn(
+[2.441s] running egg_info
+[2.441s] writing my_py_pkg.egg-info/PKG-INFO
+[2.441s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.442s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.442s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.443s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.445s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.447s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.448s] running build_ext
+[2.449s] Creating /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.450s] Installing add_two_ints_client_no_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.450s] Installing add_two_ints_client_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.450s] Installing add_two_ints_server script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.451s] Installing battery script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.451s] Installing led_panel script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.451s] Installing number_counter script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.451s] Installing number_publisher script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.452s] Installing py_node script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.452s] Installing robot_news_station script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.452s] Installing smartphone script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.452s] Installing target_coordinates_publisher script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.452s] 
+[2.452s] Installed /home/emir/ros2_ws/build/my_py_pkg
+[2.453s] running symlink_data
+[2.453s] symbolically linking /home/emir/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/emir/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.453s] symbolically linking /home/emir/ros2_ws/build/my_py_pkg/package.xml -> /home/emir/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.482s] Invoked command in '/home/emir/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/emir/ros2_ws/install/custom_interfaces1/lib:/home/emir/install/my_robot_interfaces/lib:/home/emir/install/custom_interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

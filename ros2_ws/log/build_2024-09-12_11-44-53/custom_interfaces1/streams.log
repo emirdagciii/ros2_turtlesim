@@ -1,0 +1,40 @@
+[0.035s] Invoking command in '/home/emir/ros2_ws/build/custom_interfaces1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/custom_interfaces1 -- -j5 -l5
+[0.171s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.684s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.999s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.999s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.006s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.070s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.443s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.291s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.365s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.365s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.365s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.509s] -- Configuring done
+[2.666s] -- Generating done
+[2.674s] -- Build files have been written to: /home/emir/ros2_ws/build/custom_interfaces1
+[2.711s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_generator_c[0m
+[2.727s] [  3%] Built target custom_interfaces1__cpp
+[2.729s] failed to create symbolic link '/home/emir/ros2_ws/build/custom_interfaces1/ament_cmake_python/custom_interfaces1/custom_interfaces1' because existing path cannot be removed: Is a directory
+[2.732s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_custom_interfaces1.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_custom_interfaces1] Error 1
+[2.732s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_custom_interfaces1.dir/all] Error 2
+[2.733s] gmake[1]: *** Waiting for unfinished jobs....
+[2.733s] [  6%] [32m[1mLinking C shared library libcustom_interfaces1__rosidl_generator_c.so[0m
+[2.746s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_cpp[0m
+[2.746s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_introspection_cpp[0m
+[2.747s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces1__rosidl_typesupport_fastrtps_cpp[0m
+[2.764s] [  9%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_cpp.so[0m
+[2.765s] [ 12%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.825s] [ 16%] [32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/msg/detail/target_coordinates__type_support.cpp.o[0m
+[2.833s] [ 22%] Built target custom_interfaces1__rosidl_typesupport_cpp
+[2.874s] [ 29%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_cpp
+[3.021s] [ 35%] Built target custom_interfaces1__rosidl_generator_c
+[3.682s] [ 38%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so[0m
+[3.845s] [ 41%] Built target custom_interfaces1__rosidl_typesupport_introspection_cpp
+[3.847s] gmake: *** [Makefile:146: all] Error 2
+[3.850s] Invoked command in '/home/emir/ros2_ws/build/custom_interfaces1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/custom_interfaces1 -- -j5 -l5

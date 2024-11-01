@@ -1,0 +1,31 @@
+[0.562s] Invoking command in '/home/emir/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[0.813s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.813s]   warnings.warn(
+[0.813s] running develop
+[0.965s] running egg_info
+[0.966s] writing my_py_pkg.egg-info/PKG-INFO
+[0.966s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.967s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.967s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.967s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.968s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.968s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.970s] running build_ext
+[0.970s] Creating /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.971s] Installing add_two_ints_client_no_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing add_two_ints_client_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing add_two_ints_server script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing battery script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing led_panel script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing number_counter script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing number_publisher script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing py_node script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing robot_news_station script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing smartphone script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] Installing target_coordinates_publisher script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.974s] 
+[0.975s] Installed /home/emir/ros2_ws/build/my_py_pkg
+[0.975s] running symlink_data
+[0.975s] symbolically linking /home/emir/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/emir/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.975s] symbolically linking /home/emir/ros2_ws/build/my_py_pkg/package.xml -> /home/emir/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.996s] Invoked command in '/home/emir/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

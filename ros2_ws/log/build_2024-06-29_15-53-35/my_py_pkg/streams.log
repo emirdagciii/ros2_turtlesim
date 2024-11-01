@@ -1,0 +1,47 @@
+[0.827s] Invoking command in '/home/emir/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build
+[1.178s] running develop
+[1.179s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.179s]   warnings.warn(
+[1.398s] Removing /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.426s] Invoked command in '/home/emir/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build
+[1.427s] Invoking command in '/home/emir/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/emir/ros2_ws/build/my_py_pkg/build install --record /home/emir/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.708s] running egg_info
+[1.710s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.711s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.711s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.712s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.712s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.713s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.714s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.716s] running build
+[1.716s] running build_py
+[1.723s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.723s] copying my_py_pkg/add_two_ints_server.py -> /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.723s] running install
+[1.723s] running install_lib
+[1.723s] creating /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.723s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.723s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.723s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.724s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.724s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.724s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.724s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[1.724s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[1.724s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.724s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.724s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.724s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.724s] running install_data
+[1.724s] copying resource/my_py_pkg -> /home/emir/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.724s] copying package.xml -> /home/emir/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.724s] running install_egg_info
+[1.724s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.742s] running install_scripts
+[1.768s] Installing add_two_ints_client_no_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.770s] Installing add_two_ints_server script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.770s] Installing py_node script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.770s] Installing robot_news_station script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.770s] Installing smartphone script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.770s] writing list of installed files to '/home/emir/ros2_ws/build/my_py_pkg/install.log'
+[1.798s] Invoked command in '/home/emir/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/emir/ros2_ws/build/my_py_pkg/build install --record /home/emir/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

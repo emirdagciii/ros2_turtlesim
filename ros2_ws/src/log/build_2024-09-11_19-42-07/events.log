@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000398] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000448] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.053908] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.068647] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.069645] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/emir/ros2_ws/src/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/emir/ros2_ws/src/install/my_cpp_pkg'], 'cwd': '/home/emir/ros2_ws/src/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '893'), ('SYSTEMD_EXEC_PID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3458'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:9650'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1048,unix/emir-VirtualBox:/tmp/.ICE-unix/1048'), ('INVOCATION_ID', 'c03dc02d33ed46b2a558721d3d14ba1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OGACU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b1b49a81-df13-451c-9ee6-47dfbc84fea0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/src/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/ros2_ws/build/my_py_pkg:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098860] (-) TimerEvent: {}
+[0.199697] (-) TimerEvent: {}
+[0.300936] (-) TimerEvent: {}
+[0.402402] (-) TimerEvent: {}
+[0.502959] (-) TimerEvent: {}
+[0.603930] (-) TimerEvent: {}
+[0.704638] (-) TimerEvent: {}
+[0.805050] (-) TimerEvent: {}
+[0.907214] (-) TimerEvent: {}
+[0.997841] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.007321] (-) TimerEvent: {}
+[1.109181] (-) TimerEvent: {}
+[1.219250] (-) TimerEvent: {}
+[1.319793] (-) TimerEvent: {}
+[1.421456] (-) TimerEvent: {}
+[1.525313] (-) TimerEvent: {}
+[1.626459] (-) TimerEvent: {}
+[1.729507] (-) TimerEvent: {}
+[1.834686] (-) TimerEvent: {}
+[1.937771] (-) TimerEvent: {}
+[2.039426] (-) TimerEvent: {}
+[2.141857] (-) TimerEvent: {}
+[2.196414] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_py_pkg', 'build', '--build-base', '/home/emir/ros2_ws/src/build/my_py_pkg/build', 'install', '--record', '/home/emir/ros2_ws/src/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/emir/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'emir', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/emir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/emir', 'OLDPWD': '/home/emir', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '893', 'SYSTEMD_EXEC_PID': '1435', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3458', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/emir/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'emir', 'JOURNAL_STREAM': '8:9650', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'emir', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/emir-VirtualBox:@/tmp/.ICE-unix/1048,unix/emir-VirtualBox:/tmp/.ICE-unix/1048', 'INVOCATION_ID': 'c03dc02d33ed46b2a558721d3d14ba1c', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OGACU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b1b49a81-df13-451c-9ee6-47dfbc84fea0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/emir/ros2_ws/src/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/emir/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/ros2_ws/build/my_py_pkg:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[2.232099] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.242229] (-) TimerEvent: {}
+[2.253862] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.342252] (-) TimerEvent: {}
+[2.443100] (-) TimerEvent: {}
+[2.461905] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.468990] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.470048] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.483813] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.491687] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.533110] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.533412] (my_py_pkg) StdoutLine: {'line': b'creating ../build/my_py_pkg/my_py_pkg.egg-info\n'}
+[2.533557] (my_py_pkg) StdoutLine: {'line': b'writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[2.536120] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[2.536228] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[2.536299] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[2.536364] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[2.536428] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.538861] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.538971] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.539024] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.539074] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.539127] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/build/my_py_pkg/build\n'}
+[2.539180] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/build/my_py_pkg/build/lib\n'}
+[2.539238] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.539292] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_counter.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.543801] (-) TimerEvent: {}
+[2.555210] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_publisher.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.572186] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/smartphone.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.585002] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.603493] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_server.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.622651] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client_oop.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.630945] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.631246] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.641423] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/robot_news_station.py -> /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.643883] (-) TimerEvent: {}
+[2.657159] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.658693] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.660237] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.662326] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662451] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662524] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662590] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662653] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662728] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662789] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_oop.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662885] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.662996] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.665226] (my_py_pkg) StdoutLine: {'line': b'copying /home/emir/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[2.665359] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc\n'}
+[2.665441] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc\n'}
+[2.665514] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc\n'}
+[2.665641] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc\n'}
+[2.667226] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[2.667412] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_oop.py to add_two_ints_client_oop.cpython-310.pyc\n'}
+[2.667494] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.667567] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[2.668221] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc\n'}
+[2.668390] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.668475] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/install/my_py_pkg/share/ament_index\n'}
+[2.668573] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index\n'}
+[2.668664] (my_py_pkg) StdoutLine: {'line': b'creating /home/emir/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[2.668862] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /home/emir/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[2.668972] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/emir/ros2_ws/src/install/my_py_pkg/share/my_py_pkg\n'}
+[2.669041] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.669160] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.669249] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.669334] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.670597] (my_py_pkg) StdoutLine: {'line': b'Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/emir/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[2.674795] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.700816] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701228] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_oop script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701342] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701407] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701466] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701522] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701577] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701632] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/emir/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.701687] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/emir/ros2_ws/src/build/my_py_pkg/install.log'\n"}
+[2.724508] (my_py_pkg) CommandEnded: {'returncode': 0}
+[2.743493] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.744238] (-) TimerEvent: {}
+[2.845155] (-) TimerEvent: {}
+[2.934054] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.945741] (-) TimerEvent: {}
+[3.046387] (-) TimerEvent: {}
+[3.133900] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.149708] (-) TimerEvent: {}
+[3.251367] (-) TimerEvent: {}
+[3.353218] (-) TimerEvent: {}
+[3.455358] (-) TimerEvent: {}
+[3.557959] (-) TimerEvent: {}
+[3.642412] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.663160] (-) TimerEvent: {}
+[3.764738] (-) TimerEvent: {}
+[3.867118] (-) TimerEvent: {}
+[3.967970] (-) TimerEvent: {}
+[4.012666] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.051039] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.068874] (-) TimerEvent: {}
+[4.089134] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.138001] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.172030] (-) TimerEvent: {}
+[4.203549] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.273401] (-) TimerEvent: {}
+[4.381906] (-) TimerEvent: {}
+[4.383286] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.408642] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.482335] (-) TimerEvent: {}
+[4.588333] (-) TimerEvent: {}
+[4.689937] (-) TimerEvent: {}
+[4.790410] (-) TimerEvent: {}
+[4.891727] (-) TimerEvent: {}
+[4.907394] (my_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.964785] (my_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.992407] (-) TimerEvent: {}
+[5.004651] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.094948] (-) TimerEvent: {}
+[5.140691] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.198132] (-) TimerEvent: {}
+[5.299977] (-) TimerEvent: {}
+[5.401275] (-) TimerEvent: {}
+[5.435362] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.435584] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.502234] (-) TimerEvent: {}
+[5.567570] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.567765] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.607836] (-) TimerEvent: {}
+[5.709090] (-) TimerEvent: {}
+[5.816508] (-) TimerEvent: {}
+[5.818122] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[5.916819] (-) TimerEvent: {}
+[6.016605] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.016815] (-) TimerEvent: {}
+[6.041248] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.041433] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/emir/ros2_ws/src/build/my_cpp_pkg\n'}
+[6.059543] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[6.061697] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[6.061803] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emir/ros2_ws/src/build/my_cpp_pkg', '--', '-j5', '-l5'], 'cwd': '/home/emir/ros2_ws/src/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '893'), ('SYSTEMD_EXEC_PID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3458'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:9650'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1048,unix/emir-VirtualBox:/tmp/.ICE-unix/1048'), ('INVOCATION_ID', 'c03dc02d33ed46b2a558721d3d14ba1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OGACU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b1b49a81-df13-451c-9ee6-47dfbc84fea0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/src/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/ros2_ws/build/my_py_pkg:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[6.118041] (-) TimerEvent: {}
+[6.127035] (my_cpp_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/add_two_ints_client_oop.cpp.o\x1b[0m\n'}
+[6.127382] (my_cpp_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[6.127489] (my_cpp_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[6.127602] (my_cpp_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[6.134200] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_oop.dir/src/add_two_ints_client_oop.cpp.o\x1b[0m\n'}
+[6.218191] (-) TimerEvent: {}
+[6.319521] (-) TimerEvent: {}
+[6.425425] (-) TimerEvent: {}
+[6.547817] (-) TimerEvent: {}
+[6.650939] (-) TimerEvent: {}
+[6.751853] (-) TimerEvent: {}
+[6.852518] (-) TimerEvent: {}
+[6.962206] (-) TimerEvent: {}
+[7.068991] (-) TimerEvent: {}
+[7.170362] (-) TimerEvent: {}
+[7.271185] (-) TimerEvent: {}
+[7.375223] (-) TimerEvent: {}
+[7.475763] (-) TimerEvent: {}
+[7.579097] (-) TimerEvent: {}
+[7.679732] (-) TimerEvent: {}
+[7.780711] (-) TimerEvent: {}
+[7.881496] (-) TimerEvent: {}
+[7.984221] (-) TimerEvent: {}
+[8.087183] (-) TimerEvent: {}
+[8.188132] (-) TimerEvent: {}
+[8.288636] (-) TimerEvent: {}
+[8.389300] (-) TimerEvent: {}
+[8.489964] (-) TimerEvent: {}
+[8.590475] (-) TimerEvent: {}
+[8.693295] (-) TimerEvent: {}
+[8.793792] (-) TimerEvent: {}
+[8.894418] (-) TimerEvent: {}
+[8.996329] (-) TimerEvent: {}
+[9.096904] (-) TimerEvent: {}
+[9.198264] (-) TimerEvent: {}
+[9.298869] (-) TimerEvent: {}
+[9.400441] (-) TimerEvent: {}
+[9.500890] (-) TimerEvent: {}
+[9.602430] (-) TimerEvent: {}
+[9.703000] (-) TimerEvent: {}
+[9.806201] (-) TimerEvent: {}
+[9.906864] (-) TimerEvent: {}
+[10.007438] (-) TimerEvent: {}
+[10.107955] (-) TimerEvent: {}
+[10.208488] (-) TimerEvent: {}
+[10.308963] (-) TimerEvent: {}
+[10.409511] (-) TimerEvent: {}
+[10.510012] (-) TimerEvent: {}
+[10.612325] (-) TimerEvent: {}
+[10.713029] (-) TimerEvent: {}
+[10.813495] (-) TimerEvent: {}
+[10.914073] (-) TimerEvent: {}
+[11.014551] (-) TimerEvent: {}
+[11.117075] (-) TimerEvent: {}
+[11.217607] (-) TimerEvent: {}
+[11.318138] (-) TimerEvent: {}
+[11.418613] (-) TimerEvent: {}
+[11.522865] (-) TimerEvent: {}
+[11.626159] (-) TimerEvent: {}
+[11.727092] (-) TimerEvent: {}
+[11.827769] (-) TimerEvent: {}
+[11.928683] (-) TimerEvent: {}
+[12.029220] (-) TimerEvent: {}
+[12.129754] (-) TimerEvent: {}
+[12.230264] (-) TimerEvent: {}
+[12.269807] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.270350] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.270446] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.270525] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.270600] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.270685] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.270756] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.270823] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.270891] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.270961] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.271029] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.271095] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:1\x1b[m\x1b[K:\n'}
+[12.271293] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.271378] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:27:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.271470] (my_cpp_pkg) StderrLine: {'line': b'   27 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, a, b, \x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[12.271540] (my_cpp_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K        \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.271617] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[12.271685] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[12.271755] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.271821] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.271887] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.271953] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.272019] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.272085] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.278313] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.278427] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.278529] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.278608] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.278681] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.278752] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:1\x1b[m\x1b[K:\n'}
+[12.278824] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.278897] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:27:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.279106] (my_cpp_pkg) StderrLine: {'line': b'   27 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, a, b, \x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[12.279213] (my_cpp_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K        \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.279294] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[12.279365] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[12.279444] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:27:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.279516] (my_cpp_pkg) StderrLine: {'line': b'   27 |             RCLCPP_INFO(this->get_logger(), "%d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", a, b, response->sum);\n'}
+[12.279590] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[12.279660] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.279730] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[12.279800] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[12.279870] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emir/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_oop.cpp:27:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.280024] (my_cpp_pkg) StderrLine: {'line': b'   27 |             RCLCPP_INFO(this->get_logger(), "%d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", a, b, response->sum);\n'}
+[12.280157] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[12.280240] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.280309] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[12.280378] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[12.330937] (-) TimerEvent: {}
+[12.431474] (-) TimerEvent: {}
+[12.533806] (-) TimerEvent: {}
+[12.634376] (-) TimerEvent: {}
+[12.734876] (-) TimerEvent: {}
+[12.835394] (-) TimerEvent: {}
+[12.936632] (-) TimerEvent: {}
+[13.040502] (-) TimerEvent: {}
+[13.141019] (-) TimerEvent: {}
+[13.241875] (-) TimerEvent: {}
+[13.342966] (-) TimerEvent: {}
+[13.443643] (-) TimerEvent: {}
+[13.547835] (-) TimerEvent: {}
+[13.648335] (-) TimerEvent: {}
+[13.748957] (-) TimerEvent: {}
+[13.849566] (-) TimerEvent: {}
+[13.950129] (-) TimerEvent: {}
+[14.050661] (-) TimerEvent: {}
+[14.151457] (-) TimerEvent: {}
+[14.252830] (-) TimerEvent: {}
+[14.353586] (-) TimerEvent: {}
+[14.454684] (-) TimerEvent: {}
+[14.556868] (-) TimerEvent: {}
+[14.661199] (-) TimerEvent: {}
+[14.761989] (-) TimerEvent: {}
+[14.862647] (-) TimerEvent: {}
+[14.963044] (-) TimerEvent: {}
+[15.064622] (-) TimerEvent: {}
+[15.165187] (-) TimerEvent: {}
+[15.265671] (-) TimerEvent: {}
+[15.366302] (-) TimerEvent: {}
+[15.466756] (-) TimerEvent: {}
+[15.567251] (-) TimerEvent: {}
+[15.667969] (-) TimerEvent: {}
+[15.769257] (-) TimerEvent: {}
+[15.869817] (-) TimerEvent: {}
+[15.970441] (-) TimerEvent: {}
+[16.071002] (-) TimerEvent: {}
+[16.171524] (-) TimerEvent: {}
+[16.272005] (-) TimerEvent: {}
+[16.372543] (-) TimerEvent: {}
+[16.472970] (-) TimerEvent: {}
+[16.573571] (-) TimerEvent: {}
+[16.674040] (-) TimerEvent: {}
+[16.775202] (-) TimerEvent: {}
+[16.876079] (-) TimerEvent: {}
+[16.976691] (-) TimerEvent: {}
+[17.077148] (-) TimerEvent: {}
+[17.178120] (-) TimerEvent: {}
+[17.278576] (-) TimerEvent: {}
+[17.379652] (-) TimerEvent: {}
+[17.481115] (-) TimerEvent: {}
+[17.581877] (-) TimerEvent: {}
+[17.684190] (-) TimerEvent: {}
+[17.785708] (-) TimerEvent: {}
+[17.887177] (-) TimerEvent: {}
+[17.988696] (-) TimerEvent: {}
+[18.089237] (-) TimerEvent: {}
+[18.189846] (-) TimerEvent: {}
+[18.291422] (-) TimerEvent: {}
+[18.391805] (-) TimerEvent: {}
+[18.492569] (-) TimerEvent: {}
+[18.593861] (-) TimerEvent: {}
+[18.694585] (-) TimerEvent: {}
+[18.794915] (-) TimerEvent: {}
+[18.895333] (-) TimerEvent: {}
+[18.995777] (-) TimerEvent: {}
+[19.097634] (-) TimerEvent: {}
+[19.200209] (-) TimerEvent: {}
+[19.301354] (-) TimerEvent: {}
+[19.353785] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_oop\x1b[0m\n'}
+[19.354197] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[19.354337] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[19.356458] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[19.401904] (-) TimerEvent: {}
+[19.503278] (-) TimerEvent: {}
+[19.603979] (-) TimerEvent: {}
+[19.723264] (-) TimerEvent: {}
+[19.825407] (-) TimerEvent: {}
+[19.926069] (-) TimerEvent: {}
+[20.049341] (-) TimerEvent: {}
+[20.150049] (-) TimerEvent: {}
+[20.250717] (-) TimerEvent: {}
+[20.352734] (-) TimerEvent: {}
+[20.454197] (-) TimerEvent: {}
+[20.555321] (-) TimerEvent: {}
+[20.656308] (-) TimerEvent: {}
+[20.758754] (-) TimerEvent: {}
+[20.836805] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[20.859157] (-) TimerEvent: {}
+[20.962127] (-) TimerEvent: {}
+[21.063219] (-) TimerEvent: {}
+[21.163838] (-) TimerEvent: {}
+[21.277413] (-) TimerEvent: {}
+[21.383377] (-) TimerEvent: {}
+[21.490107] (-) TimerEvent: {}
+[21.591492] (-) TimerEvent: {}
+[21.692780] (-) TimerEvent: {}
+[21.794078] (-) TimerEvent: {}
+[21.895255] (-) TimerEvent: {}
+[22.003600] (-) TimerEvent: {}
+[22.105208] (-) TimerEvent: {}
+[22.151184] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[22.159289] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_server\n'}
+[22.169602] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client_oop\n'}
+[22.179490] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target robot_news_station\n'}
+[22.205700] (-) TimerEvent: {}
+[22.306828] (-) TimerEvent: {}
+[22.330308] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[22.346749] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[22.406933] (-) TimerEvent: {}
+[22.419285] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[22.433569] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emir/ros2_ws/src/build/my_cpp_pkg'], 'cwd': '/home/emir/ros2_ws/src/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '893'), ('SYSTEMD_EXEC_PID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3458'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:9650'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1048,unix/emir-VirtualBox:/tmp/.ICE-unix/1048'), ('INVOCATION_ID', 'c03dc02d33ed46b2a558721d3d14ba1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OGACU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b1b49a81-df13-451c-9ee6-47dfbc84fea0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/src/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/ros2_ws/build/my_py_pkg:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/my_robot_interfaces:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[22.446916] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.447439] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[22.448687] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""\n'}
+[22.448915] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[22.450489] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[22.450750] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[22.454360] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[22.455050] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[22.456703] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""\n'}
+[22.456910] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop\n'}
+[22.458138] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/emir/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_oop" to ""\n'}
+[22.458689] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[22.459323] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[22.459890] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[22.474949] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[22.475404] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[22.475786] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[22.476607] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[22.476749] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[22.476828] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[22.477808] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[22.477956] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[22.478188] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[22.478300] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[22.478361] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[22.478420] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/emir/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[22.497222] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[22.507995] (-) TimerEvent: {}
+[22.610917] (-) TimerEvent: {}
+[22.716633] (-) TimerEvent: {}
+[22.801715] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[22.803573] (-) EventReactorShutdown: {}

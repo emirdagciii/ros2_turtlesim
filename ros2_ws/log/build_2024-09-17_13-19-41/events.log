@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'custom_interfaces1'}
+[0.000572] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000600] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000698] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.000790] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict([('custom_interfaces1', '/home/emir/ros2_ws/install/custom_interfaces1'), ('turtlesim_catch_them_all', '/home/emir/ros2_ws/install/turtlesim_catch_them_all')])}
+[0.000870] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[0.020370] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[0.022384] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'build'}
+[0.022469] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emir/ros2_ws/build/my_robot_bringup', '--', '-j5', '-l5'], 'cwd': '/home/emir/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emir'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/emir/ros2_ws/install/custom_interfaces1/lib:/home/emir/install/my_robot_interfaces/lib:/home/emir/install/custom_interfaces1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emir'), ('OLDPWD', '/home/emir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '926'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30362'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emir/ros2_ws/install:/home/emir/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emir'), ('JOURNAL_STREAM', '8:13314'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emir-VirtualBox:@/tmp/.ICE-unix/1093,unix/emir-VirtualBox:/tmp/.ICE-unix/1093'), ('INVOCATION_ID', '602a6d9db72f4384a83291772a3c3597'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZZ41T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_robot_bringup:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/install/my_robot_interfaces:/home/emir/install/my_py_pkg:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:31dfd1e3-c753-4855-8e49-166a5471f59b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emir/ros2_ws/build/my_robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emir/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages:/home/emir/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/emir/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/emir/build/my_py_pkg:/home/emir/install/my_py_pkg/lib/python3.10/site-packages:/home/emir/install/custom_interfaces1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emir/ros2_ws/install/custom_interfaces1:/home/emir/ros2_ws/install/my_robot_bringup:/home/emir/ros2_ws/install/my_cpp_pkg:/home/emir/install/my_robot_interfaces:/home/emir/install/my_cpp_pkg:/home/emir/install/custom_robot_interfaces:/home/emir/install/custom_interfaces1:/home/emir/ros2_ws/install/turtlesim_catch_them_all:/home/emir/ros2_ws/install/my_py_pkg:/home/emir/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.055344] (my_robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098804] (-) TimerEvent: {}
+[0.200632] (-) TimerEvent: {}
+[0.259602] (my_robot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.312451] (-) TimerEvent: {}
+[0.416855] (-) TimerEvent: {}
+[0.517931] (-) TimerEvent: {}
+[0.620455] (-) TimerEvent: {}
+[0.727381] (-) TimerEvent: {}
+[0.826556] (my_robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.827550] (-) TimerEvent: {}
+[0.853254] (my_robot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.877572] (my_robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.928719] (-) TimerEvent: {}
+[1.020142] (my_robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.029064] (-) TimerEvent: {}
+[1.078497] (my_robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.129319] (-) TimerEvent: {}
+[1.230182] (-) TimerEvent: {}
+[1.277381] (my_robot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.299728] (my_robot_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.333033] (-) TimerEvent: {}
+[1.434666] (-) TimerEvent: {}
+[1.535704] (-) TimerEvent: {}
+[1.636487] (-) TimerEvent: {}
+[1.738301] (-) TimerEvent: {}
+[1.840322] (-) TimerEvent: {}
+[1.940871] (-) TimerEvent: {}
+[2.041504] (-) TimerEvent: {}
+[2.053809] (my_robot_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.095847] (my_robot_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.142044] (-) TimerEvent: {}
+[2.147075] (my_robot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.243752] (-) TimerEvent: {}
+[2.289533] (my_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.344930] (-) TimerEvent: {}
+[2.446446] (-) TimerEvent: {}
+[2.515869] (my_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.516054] (my_robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.547377] (-) TimerEvent: {}
+[2.622253] (my_robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.623476] (my_robot_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.647710] (-) TimerEvent: {}
+[2.752139] (-) TimerEvent: {}
+[2.853325] (-) TimerEvent: {}
+[2.964626] (-) TimerEvent: {}
+[3.034180] (my_robot_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[3.034352] (my_robot_bringup) StderrLine: {'line': b'  By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.034415] (my_robot_bringup) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "launch", but\n'}
+[3.034470] (my_robot_bringup) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.034594] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[3.034800] (my_robot_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by "launch" with any\n'}
+[3.034901] (my_robot_bringup) StderrLine: {'line': b'  of the following names:\n'}
+[3.034954] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[3.035004] (my_robot_bringup) StderrLine: {'line': b'    launchConfig.cmake\n'}
+[3.035053] (my_robot_bringup) StderrLine: {'line': b'    launch-config.cmake\n'}
+[3.035105] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[3.035182] (my_robot_bringup) StderrLine: {'line': b'  Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set\n'}
+[3.035237] (my_robot_bringup) StderrLine: {'line': b'  "launch_DIR" to a directory containing one of the above files.  If "launch"\n'}
+[3.035287] (my_robot_bringup) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.035337] (my_robot_bringup) StderrLine: {'line': b'  installed.\n'}
+[3.035387] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[3.035436] (my_robot_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[3.035485] (my_robot_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.035674] (my_robot_bringup) StdoutLine: {'line': b'See also "/home/emir/ros2_ws/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[3.041332] (my_robot_bringup) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[3.042574] (my_robot_bringup) CommandEnded: {'returncode': 2}
+[3.065392] (-) TimerEvent: {}
+[3.084387] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 2}
+[3.101353] (-) EventReactorShutdown: {}

@@ -1,0 +1,58 @@
+[1.544s] Invoking command in '/home/emir/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build
+[1.850s] running develop
+[1.898s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.898s]   warnings.warn(
+[2.111s] Removing /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.137s] Invoked command in '/home/emir/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/emir/ros2_ws/build/my_py_pkg/build
+[2.140s] Invoking command in '/home/emir/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/emir/ros2_ws/build/my_py_pkg/build install --record /home/emir/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.400s] running egg_info
+[2.400s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.401s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.402s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.402s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.402s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.404s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.417s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.418s] running build
+[2.418s] running build_py
+[2.418s] copying my_py_pkg/number_counter.py -> /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.449s] copying my_py_pkg/number_publisher.py -> /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.464s] copying my_py_pkg/my_first_node.py -> /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.480s] copying my_py_pkg/robot_news_station.py -> /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.498s] running install
+[2.498s] running install_lib
+[2.500s] creating /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.500s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.500s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.500s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.515s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.576s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.577s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_oop.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.579s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.579s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.579s] copying /home/emir/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.580s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[2.580s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.582s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.582s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.582s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.582s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_oop.py to add_two_ints_client_oop.cpython-310.pyc
+[2.583s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.583s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.583s] byte-compiling /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.584s] running install_data
+[2.584s] copying resource/my_py_pkg -> /home/emir/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.584s] copying package.xml -> /home/emir/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.584s] running install_egg_info
+[2.587s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.612s] running install_scripts
+[2.635s] Installing add_two_ints_client_no_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.635s] Installing add_two_ints_client_oop script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.635s] Installing add_two_ints_server script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.636s] Installing number_counter script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.636s] Installing number_publisher script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.636s] Installing py_node script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.637s] Installing robot_news_station script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.637s] Installing smartphone script to /home/emir/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.638s] writing list of installed files to '/home/emir/ros2_ws/build/my_py_pkg/install.log'
+[2.669s] Invoked command in '/home/emir/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/emir/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emir/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/emir/ros2_ws/build/my_py_pkg/build install --record /home/emir/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

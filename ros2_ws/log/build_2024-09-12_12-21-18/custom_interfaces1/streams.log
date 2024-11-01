@@ -1,0 +1,9 @@
+[0.011s] Invoking command in '/home/emir/ros2_ws/build/custom_interfaces1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/custom_interfaces1 -- -j5 -l5
+[0.062s] failed to create symbolic link '/home/emir/ros2_ws/build/custom_interfaces1/ament_cmake_python/custom_interfaces1/custom_interfaces1' because existing path cannot be removed: Is a directory
+[0.063s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_custom_interfaces1.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_custom_interfaces1] Error 1
+[0.064s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_custom_interfaces1.dir/all] Error 2
+[0.065s] [  3%] Built target custom_interfaces1__cpp
+[0.065s] [ 12%] Built target custom_interfaces1__rosidl_generator_c
+[0.065s] gmake[1]: *** Waiting for unfinished jobs....
+[0.065s] gmake: *** [Makefile:146: all] Error 2
+[0.067s] Invoked command in '/home/emir/ros2_ws/build/custom_interfaces1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/custom_interfaces1 -- -j5 -l5

@@ -1,0 +1,170 @@
+[0.011s] Invoking command in '/home/emir/ros2_ws/build/custom_interfaces1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/custom_interfaces1 -- -j5 -l5
+[0.056s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.065s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.073s] [  6%] Built target ament_cmake_python_symlink_custom_interfaces1
+[0.399s] running egg_info
+[0.399s] writing custom_interfaces1.egg-info/PKG-INFO
+[0.399s] writing dependency_links to custom_interfaces1.egg-info/dependency_links.txt
+[0.400s] writing top-level names to custom_interfaces1.egg-info/top_level.txt
+[0.419s] reading manifest file 'custom_interfaces1.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'custom_interfaces1.egg-info/SOURCES.txt'
+[0.446s] [  6%] Built target ament_cmake_python_build_custom_interfaces1_egg
+[0.659s] [  6%] Built target custom_interfaces1__cpp
+[0.672s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.672s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.673s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.677s] [ 19%] [32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces1/msg/detail/target_coordinates__functions.c.o[0m
+[0.908s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces1__rosidl_generator_c.so[0m
+[0.948s] [ 22%] Built target custom_interfaces1__rosidl_generator_c
+[0.959s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.959s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.959s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces1/msg/target_coordinates__type_support.cpp.o[0m
+[1.000s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces1/msg/detail/target_coordinates__type_support.cpp.o[0m
+[1.007s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces1/msg/detail/dds_fastrtps/target_coordinates__type_support.cpp.o[0m
+[1.225s] [ 41%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_cpp.so[0m
+[1.269s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces1/msg/detail/target_coordinates__type_support_c.cpp.o[0m
+[1.269s] [ 48%] [32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces1/msg/detail/target_coordinates__type_support.c.o[0m
+[1.269s] [ 48%] Built target custom_interfaces1__rosidl_typesupport_cpp
+[1.279s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.385s] [ 54%] [32m[1mLinking C shared library libcustom_interfaces1__rosidl_typesupport_introspection_c.so[0m
+[1.401s] [ 58%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so[0m
+[1.406s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.616s] [ 61%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_cpp
+[1.658s] [ 61%] Built target custom_interfaces1__rosidl_typesupport_introspection_cpp
+[1.659s] [ 61%] Built target custom_interfaces1__rosidl_typesupport_introspection_c
+[1.711s] [ 64%] [32mBuilding CXX object CMakeFiles/custom_interfaces1__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces1/msg/target_coordinates__type_support.cpp.o[0m
+[1.938s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_c.so[0m
+[2.027s] [ 67%] Built target custom_interfaces1__rosidl_typesupport_c
+[2.497s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces1__rosidl_typesupport_fastrtps_c.so[0m
+[2.610s] [ 70%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_c
+[2.630s] [ 70%] Built target custom_interfaces1
+[2.656s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.937s] [ 74%] Built target custom_interfaces1__py
+[2.959s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces1/msg/_target_coordinates_s.c.o[0m
+[3.486s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces1/libcustom_interfaces1__rosidl_generator_py.so[0m
+[3.562s] [ 80%] Built target custom_interfaces1__rosidl_generator_py
+[3.587s] [ 83%] [32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.603s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_c.c.o[0m
+[3.603s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.684s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.693s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.695s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.721s] [100%] Built target custom_interfaces1__rosidl_typesupport_fastrtps_c__pyext
+[3.733s] [100%] Built target custom_interfaces1__rosidl_typesupport_c__pyext
+[3.736s] [100%] Built target custom_interfaces1__rosidl_typesupport_introspection_c__pyext
+[3.749s] Invoked command in '/home/emir/ros2_ws/build/custom_interfaces1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emir/ros2_ws/build/custom_interfaces1 -- -j5 -l5
+[3.808s] Invoking command in '/home/emir/ros2_ws/build/custom_interfaces1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emir/ros2_ws/build/custom_interfaces1
+[3.888s] -- Install configuration: ""
+[3.953s] -- Execute custom install script
+[3.954s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces1
+[3.962s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__functions.h
+[3.970s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__struct.h
+[3.977s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__type_support.h
+[3.986s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__functions.h
+[3.994s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__struct.h
+[4.002s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__type_support.h
+[4.010s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/led_state_array.h
+[4.018s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_generator_c__visibility_control.h
+[4.027s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/target_coordinates.h
+[4.034s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/library_path.sh
+[4.042s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/library_path.dsv
+[4.049s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_c.h
+[4.057s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.065s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__builder.hpp
+[4.072s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__struct.hpp
+[4.080s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__traits.hpp
+[4.088s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__builder.hpp
+[4.096s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__struct.hpp
+[4.110s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__traits.hpp
+[4.118s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/led_state_array.hpp
+[4.126s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/target_coordinates.hpp
+[4.135s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.143s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[4.150s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.159s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h
+[4.167s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_introspection_c.h
+[4.174s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.182s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/include/custom_interfaces1/custom_interfaces1/msg/detail/target_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[4.190s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/pythonpath.sh
+[4.200s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/pythonpath.dsv
+[4.208s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/PKG-INFO
+[4.216s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.224s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.231s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1-0.0.0-py3.10.egg-info/top_level.txt
+[4.240s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/__init__.py
+[4.248s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_c.c
+[4.256s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.264s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/_custom_interfaces1_s.ep.rosidl_typesupport_introspection_c.c
+[4.272s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.280s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.288s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.296s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/libcustom_interfaces1__rosidl_generator_py.so
+[4.305s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/__init__.py
+[4.314s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_target_coordinates.py
+[4.322s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_target_coordinates_s.c
+[4.347s] -- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.347s] -- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.348s] -- Up-to-date symlink: /home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/custom_interfaces1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.348s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/TargetCoordinates.idl
+[4.357s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/msg/TargetCoordinates.msg
+[4.365s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/package_run_dependencies/custom_interfaces1
+[4.375s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/parent_prefix_path/custom_interfaces1
+[4.384s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/ament_prefix_path.sh
+[4.393s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/ament_prefix_path.dsv
+[4.401s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/path.sh
+[4.410s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/environment/path.dsv
+[4.418s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.bash
+[4.426s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.sh
+[4.435s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.zsh
+[4.443s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/local_setup.dsv
+[4.452s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/package.dsv
+[4.462s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/ament_index/resource_index/packages/custom_interfaces1
+[4.472s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/rosidl_cmake-extras.cmake
+[4.480s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.489s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.498s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_libraries-extras.cmake
+[4.507s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/ament_cmake_export_targets-extras.cmake
+[4.515s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.525s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.534s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1Config.cmake
+[4.542s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1Config-version.cmake
+[4.550s] -- Symlinking: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/package.xml
+[4.559s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_c.so
+[4.559s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_c.so" to ""
+[4.559s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_c.so
+[4.559s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_c.so" to ""
+[4.559s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so
+[4.560s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.560s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_c.so
+[4.560s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_c.so" to ""
+[4.560s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_c.so
+[4.561s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_c.so" to ""
+[4.561s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so
+[4.561s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_introspection_cpp.so" to ""
+[4.561s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_cpp.so
+[4.562s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_typesupport_cpp.so" to ""
+[4.709s] Listing '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1'...
+[4.709s] Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/__init__.py'...
+[4.709s] Listing '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg'...
+[4.709s] Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/__init__.py'...
+[4.709s] Compiling '/home/emir/ros2_ws/install/custom_interfaces1/local/lib/python3.10/dist-packages/custom_interfaces1/msg/_target_coordinates.py'...
+[4.713s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_py.so
+[4.714s] -- Set runtime path of "/home/emir/ros2_ws/install/custom_interfaces1/lib/libcustom_interfaces1__rosidl_generator_py.so" to ""
+[4.715s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_cExport.cmake
+[4.715s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_cExport-noconfig.cmake
+[4.715s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cExport.cmake
+[4.715s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.716s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_cppExport.cmake
+[4.716s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.717s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.717s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cExport.cmake
+[4.717s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.718s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cExport.cmake
+[4.718s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cExport-noconfig.cmake
+[4.718s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cppExport.cmake
+[4.718s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.719s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cppExport.cmake
+[4.719s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/custom_interfaces1__rosidl_typesupport_cppExport-noconfig.cmake
+[4.720s] -- Installing: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_pyExport.cmake
+[4.720s] -- Up-to-date: /home/emir/ros2_ws/install/custom_interfaces1/share/custom_interfaces1/cmake/export_custom_interfaces1__rosidl_generator_pyExport-noconfig.cmake
+[4.722s] Invoked command in '/home/emir/ros2_ws/build/custom_interfaces1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emir/ros2_ws/build/custom_interfaces1
