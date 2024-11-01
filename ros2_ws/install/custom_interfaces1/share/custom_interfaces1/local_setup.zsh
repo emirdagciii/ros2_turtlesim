@@ -1,0 +1,1 @@
+/home/emir/ros2_ws/build/custom_interfaces1/ament_cmake_environment_hooks/local_setup.zsh
